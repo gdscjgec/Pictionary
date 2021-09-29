@@ -2,13 +2,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/gdscjgec">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/ktKmvhK.png" width="100" height="100"></img>
   </a>
 
-  <h3 align="center">Project Name</h3>
+  <h3 align="center">PICTIONARY</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome infographic encyclopedia made from your contributions for you!
     <br />
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
@@ -49,21 +49,18 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sequi
-voluptate dicta id. Nulla recusandae voluptatem nostrum officiis, quaerat
-suscipit tempora ducimus, fuga iste eaque esse voluptate. Voluptatem,
-dolores quisquam.
+PICTIONARY
+<!-- [![PICTIONARY][product-screenshot]](https://example.com) -->
+A Beginner friendly project build upon HTML and CSS, mainly comprising of various categories and info-cards of "things" that fall in the type.
+Trying to keep it informational and educational as much as possible.
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
-- [Laravel](https://laravel.com)
+- [HTML5]
+- [CSS3]
+- [Javascript]
 
 <!-- GETTING STARTED -->
 
@@ -88,6 +85,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
+<!--   
 3. Install NPM packages
    ```sh
    npm install
@@ -96,7 +94,7 @@ This is an example of how to list things you need to use the software and how to
    ```JS
    const API_KEY = 'ENTER YOUR API';
    ```
-
+-->
 <!-- USAGE EXAMPLES -->
 
 ## Usage
