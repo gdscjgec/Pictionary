@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/gdscjgec">
-    <img src="https://i.imgur.com/ktKmvhK.png" width="100" height="100"></img>
+    <img src="https://i.imgur.com/ktKmvhK.png" width="400" height="350"></img>
   </a>
 
   <h3 align="center">PICTIONARY</h3>
@@ -58,9 +58,9 @@ Trying to keep it informational and educational as much as possible.
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [HTML5]
-- [CSS3]
-- [Javascript]
+- HTML5
+- CSS3
+- JavaScript
 
 <!-- GETTING STARTED -->
 
