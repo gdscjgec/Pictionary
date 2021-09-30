@@ -1,0 +1,22 @@
+.gallery{
+    display: flex;
+    margin-top: 10%;
+
+}
+.gallery  div{
+
+    flex: 1;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    height: 25vw;
+    margin: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+.gallery div:nth-child(odd){
+    background-color: antiquewhite;
+}
+.gallery div:nth-child(even){
+    background-color: yellowgreen;
+}
