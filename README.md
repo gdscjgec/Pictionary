@@ -1,8 +1,10 @@
+<div align="center"><a href="https://hacktoberfest.digitalocean.com/"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Banner" width="60%"/></a></div>
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/gdscjgec">
-    <img src="https://i.imgur.com/ktKmvhK.png" width="400" height="350"></img>
+    <img src="https://i.imgur.com/ktKmvhK.png" width="500" height="350"></img>
   </a>
 
   <h3 align="center">PICTIONARY</h3>
