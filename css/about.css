@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    display: inline;
+}
+
+
+/* NAVBAR STYLES */
+
+#Navbarrr {
+    padding-left: 30px;
+    padding-right: 50px;
+    /* background-color: #96BAFF; */
+}
+
+
+.navbar {
+    font-size: 1em;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#nb {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+
+
+/* ABOUT SECTION STYLES */
+
+#about {
+    position: relative;
+    top: 30px;
+    margin-left: 50px;
+
+}
+
+.about_header {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.about_header_pic {
+    height: 65px;
+    width: 65px;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}
+
+.about_pic {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+    left: 95px;
+    margin-top: 50px;
+}
+
+.about_info {
+    position: relative;
+    top: 50px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.about_span {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.about_2 {
+    width: 70%;
+}
+
+.about_2_built {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.about_project {
+    text-decoration: none;
+
+}
