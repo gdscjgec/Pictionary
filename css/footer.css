@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    background-color: rgb(166, 131, 197);
+    box-shadow: 0 0 30px 0 black;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .footer a:hover{
+      color: rgb(214, 230, 185);
+  }
+  
+  .footer-inside {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-inside > * {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }

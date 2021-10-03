@@ -1,137 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pictionary</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css"/>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pictionary</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css/navbar.css">
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- BOOTSTRAP -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Navbar brand -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
+  <body>
+    <!-- BOOTSTRAP NAVBAR -->
+    <section id="Navbarrr">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <!-- navbar brand -->
+          <a href="../index.html" class="navbar-brand" id="nb"> Pictionary </a>
 
-  <!-- FONTS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+          <!-- hamburger menu -->
+          <button
+            class="navbar-toggler me-1"
+            id="nbtn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navtoggle"
+            aria-controls="navtoggle"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-  <!-- Navbar brand -->
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-</head>
+          <!-- navbar items -->
+          <div class="collapse navbar-collapse" id="navtoggle">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="../index.html"> Home</a>
+              </li>
 
-<body>
+              <li class="nav-item" id="lg">
+                <a class="nav-link" href="./pages/gallery/landing.html">
+                  Gallery
+                </a>
+              </li>
 
-  <!-- BOOTSTRAP NAVBAR -->
-  <section id="Navbarrr">
-    <div class="container-fluid">
+              <li class="nav-item" id="lg">
+                <a class="nav-link" href="./pages/about.html"> About Us </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- end of navbar -->
 
+    
 
+    <div id="content">
+      <h1>I am adding dummy content here</h1>
+      <br /><br /><br /><br /><br /><br /><br />
+      <h3>What is Lorem Ipsum?</h3>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+      <br /><br /><br /><br /><br /><br />
+      <h3>Why do we use it?</h3>
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. The point of using
+      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+      as opposed to using 'Content here, content here', making it look like
+      readable English. Many desktop publishing packages and web page editors
+      now use Lorem Ipsum as their default model text, and a search for 'lorem
+      ipsum' will uncover many web sites still in their infancy. Various
+      versions have evolved over the years, sometimes by accident, sometimes on
+      purpose (injected humour and the like).
 
-      <nav class="navbar  navbar-expand-lg navbar-light">
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h3>Where does it come from?</h3>
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+      roots in a piece of classical Latin literature from 45 BC, making it over
+      2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+      College in Virginia, looked up one of the more obscure Latin words,
+      consectetur, from a Lorem Ipsum passage, and going through the cites of
+      the word in classical literature, discovered the undoubtable source. Lorem
+      Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+      book is a treatise on the theory of ethics, very popular during the
+      Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+      amet..", comes from a line in section 1.10.32. The standard chunk of Lorem
+      Ipsum used since the 1500s is reproduced below for those interested.
+      Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+      Cicero are also reproduced in their exact original form, accompanied by
+      English versions from the 1914 translation by H. Rackham. Lorem Ipsum is
+      simply dummy text of the printing and typesetting industry. Lorem Ipsum
+      has been the industry's standard dummy text ever since the 1500s, when an
+      unknown printer took a galley of type and scrambled it to make a type
+      specimen book. It has survived not only five centuries, but also the leap
+      into electronic typesetting, remaining essentially unchanged. It was
+      popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software
+      like Aldus PageMaker including versions of Lorem Ipsum.
+      <br /><br /><br /><br /><br /><br />
+      <h3>Why do we use it?</h3>
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. The point of using
+      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+      as opposed to using 'Content here, content here', making it look like
+      readable English. Many desktop publishing packages and web page editors
+      now use Lorem Ipsum as their default model text, and a search for 'lorem
+      ipsum' will uncover many web sites still in their infancy. Various
+      versions have evolved over the years, sometimes by accident, sometimes on
+      purpose (injected humour and the like).
 
-        <!-- navbar brand -->
-        <a href="../index.html" class="navbar-brand" id="nb"> Pictionary
-        </a>
-
-        <!-- hamburger menu -->
-        <button class="navbar-toggler me-1" id="nbtn" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navtoggle" aria-controls="navtoggle" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <!-- navbar items -->
-        <div class="collapse navbar-collapse" id="navtoggle">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="../index.html"> Home</a>
-            </li>
-
-            <li class="nav-item" id="lg">
-              <a class="nav-link" href="./pages/gallery/landing.html"> Gallery </a>
-            </li>
-
-            <li class="nav-item" id="lg">
-              <a class="nav-link " href="./pages/about.html"> About Us </a>
-            </li>
-
-
-          </ul>
-        </div>
-
-      </nav>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <h3>Where does it come from?</h3>
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+      roots in a piece of classical Latin literature from 45 BC, making it over
+      2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+      College in Virginia, looked up one of the more obscure Latin words,
+      consectetur, from a Lorem Ipsum passage, and going through the cites of
+      the word in classical literature, discovered the undoubtable source. Lorem
+      Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+      book is a treatise on the theory of ethics, very popular during the
+      Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+      amet..", comes from a line in section 1.10.32. The standard chunk of Lorem
+      Ipsum used since the 1500s is reproduced below for those interested.
+      Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+      Cicero are also reproduced in their exact original form, accompanied by
+      English versions from the 1914 translation by H. Rackham.
     </div>
-  </section>
-  <!-- end of navbar -->
-
-
-
-  <div id="content">
-    <h1>I am adding dummy content here </h1> <br><br><br><br><br><br><br>
-    <h3>What is Lorem Ipsum?</h3>
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
-    Lorem Ipsum.
-    <br><br><br><br><br><br>
-    <h3>Why do we use it?</h3>
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
-    layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-    using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web
-    page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
-    sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-    purpose (injected humour and the like).
-
-    <br><br><br><br><br><br><br><br><br><br>
-    <h3>Where does it come from?</h3>
-    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-    literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-    College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-    going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
-    from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-    written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first
-    line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-    and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
-    accompanied by English versions from the 1914 translation by H. Rackham.
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
-    Lorem Ipsum.
-    <br><br><br><br><br><br>
-    <h3>Why do we use it?</h3>
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
-    layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-    using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web
-    page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
-    sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
-    purpose (injected humour and the like).
-
-    <br><br><br><br><br><br><br><br><br><br>
-    <h3>Where does it come from?</h3>
-    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-    literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-    College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-    going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes
-    from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-    written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first
-    line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32
-    and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
-    accompanied by English versions from the 1914 translation by H. Rackham.
-
-  </div>
-  <script src="./js/app.js"></script>
-</body>
-
+    <div class="footer">
+      <div class="footer-inside">
+        <div class="footer-info">
+          <h2>Made with ❤ by gdscjgec</h2>
+          <a
+            href="https://github.com/gdscjgec/Pictionary/issues/7"
+            target="_blank"
+            >Take me to the repository!</a
+          >
+        </div>
+        <div class="footer-links">
+          <h2>Pages</h2>
+          <a href="./pages/about.html">About</a>
+          <a href="./pages/gallery/landing.html">Gallery</a>
+        </div>
+        <div class="footer-social">
+          <h2>Social Links</h2>
+          <a href="mailto:gdscjgec@gmail.com" target="_blank">✉ Email</a>
+          <a href="https://github.com/gdscjgec" target="_blank">💻 Github</a>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
