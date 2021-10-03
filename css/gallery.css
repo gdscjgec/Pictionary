@@ -1,22 +1,58 @@
-.gallery{
+body{
+    height: 100vh;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Lato', sans-serif !important;
+}
+.flex-container{
+    justify-content: center;
+    padding: 0 10%;
+    padding-top: 40px;
+}
+.box{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    margin: 40px auto;
+}
+.box .gallery,
+.box .flip{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background: white;
+    backface-visibility: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(211, 77, 24, 0.24), 0 -5px 30px rgba(36, 75, 182, 0.445);
+    transition: transform .4s;
+}
+.box .flip{
     display: flex;
-    margin-top: 10%;
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: perspective(800px) rotateX(-180deg);
 }
-.gallery  div{
-
-    flex: 1;
-    width: 25%;
-    display: inline-block;
+.box .flip p{
+    margin: 10px 20px;
     text-align: center;
-    height: 25vw;
-    margin: 10px;
-    border: 3px solid #ccc;
-    border-radius: 10px;
 }
-.gallery div:nth-child(odd){
-    background-color: antiquewhite;
+.box .gallery img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
 }
-.gallery div:nth-child(even){
-    background-color: yellowgreen;
+.box:hover .gallery{
+    transform: perspective(800px) rotateX(180deg);
+}
+.box:hover .flip{
+    border-radius: 20px 20px 0 0;
+    transform: perspective(800px) rotateX(0);
+}
+.hd1 h1{
+    text-align: center;
+    font-size: 60px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
