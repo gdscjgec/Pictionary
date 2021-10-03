@@ -10,14 +10,16 @@
 .navbar {
     font-size: 1em;
     font-family: 'ABeeZee', sans-serif;
+    color: blueviolet;
 }
 
 #nb {
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
-    color: rgba(0, 0, 0, 0.5);
+    color: blueviolet;
 }
 
 .nav-item {
     padding-right: 15px;
+    color: blueviolet;
 }
