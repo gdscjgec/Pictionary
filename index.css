@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.title1{
+    /* position: absolute; */
+    text-shadow: 2px 1px rgb(250, 239, 239);
+    background: linear-gradient(90deg,rgb(29, 16, 214),rgb(224, 13, 161),rgb(177, 6, 177),red,darkslategrey,darkturquoise);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+    text-align: center;
+}
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.div1,.div2,.div3,.div4,.div5{
+    margin: 5%;
+    text-align: justify;
+    /* background: rgb(223, 215, 215); */
+}
+.title2{
+   color:rgba(5, 88, 88, 0.801);
+   /* font-style: oblique; */
+   font-weight: bold;
+   font-size:xx-large; 
+   font-family: 'Carattere', cursive;
+   word-spacing: 7px;
+}
+.paragraph1{
+    margin-left:5%;
+    margin-top: 15px;
+    padding: 18px;
+    border:none;
+    box-shadow: 0.5rem 0.4rem 0.4rem 0.1em rgb(47, 92, 49);
+    border-radius: 12px;
+    overflow-wrap: break-word;
+    /* transition: all 2s; */
+    font-size: large;
+    font-family: 'IBM Plex Serif', serif;
+    animation: para1move 5s infinite;
+}
+@keyframes para1move {
+    50%{
+       box-shadow: -0.5rem -0.3rem 1rem rgb(135, 179, 33);  
+       transition: box-shadow 2s ease-in-out;
+    }
+    
+}
+.paragraph1:hover{
+    border:2px solid;
+    border-style: dotted;
+border-left-color: rgba(58, 7, 55, 0.452);
+border-top-color: rgba(133, 10, 57, 0.39);
+border-right-width: 0px;
+border-bottom-width: 0px;
+}
+ .title3{
+     color:rgb(8, 148, 31);
+     font-weight: bold;
+     text-shadow: 1px 1px rgb(51, 201, 201);
+     font-size:xx-large;
+     font-style: oblique;
+     font-family: 'Carattere', cursive;
+font-family: 'Lobster', cursive;
+/* font-family: 'Rubik Beastly', cursive; */
+
+ }
+ .paragraph2{
+     margin-left:4%;
+     margin-top:16px;
+     border:5px solid  rgba(128, 128, 128, 0.068);
+     padding: 15px;
+     border-radius: 20px;
+    box-shadow: -0.6rem -0.2rem 0.8rem  rgb(152, 152, 221);
+     /* border-style: groove; */
+     /* transition: box-shadow 2s ease-in-out; */
+     animation: move 5s infinite;
+ }
+ @keyframes move {
+     50%{
+        box-shadow: 0.5rem 0.6rem 1rem rgb(179, 33, 58);  
+        transition: box-shadow 2s ease-in-out;
+        border: 1px solid rgba(10, 5, 61, 0.438);
+     }
+     
+ }
+ .paragraph2:hover{
+   border:0.5px solid rgba(128, 128, 128, 0.397);
+    border-style: dashed;
+ }
+ .title4{
+     color:rgb(199, 14, 44);
+     font-size:xx-large ;
+     font-weight: bold;
+     /* font-style: inherit; */
+     font-family: 'Satisfy', cursive;
+ }
+.paragraph3{
+    margin-left:5%;
+    margin-top: 2%;
+    padding:15px;
+    border-radius: 15px;
+    box-shadow: 0.7rem 0.7rem 1rem rgba(0, 0, 0, 0.692);
+}
+.paragraph3:hover{
+    margin-top:23px;
+    box-shadow: -0.7rem -0.7rem 1rem rgba(0, 0, 0, 0.651);
+}
+.title5{
+    color:rgb(17, 14, 199);
+    text-shadow: 1px 1px rgb(230, 226, 29);
+    font-size:x-large ;
+    font-style: inherit;
+}
+.paragraph4{
+   margin-left:5%;
+   margin-top: 2%;
+   padding:15px;
+   border-radius: 15px;
+   box-shadow: 0.7rem 0.7rem 1rem rgba(176, 15, 197, 0.692);
+}
+.paragraph4:hover{
+   margin-top:23px;
+   box-shadow: -0.7rem -0.7rem 1rem rgba(248, 105, 241, 0.979);
+   animation: bordermove 1s infinite;
+}
+@keyframes bordermove {
+    50%{
+       border-style: solid;
+       border-left:none;
+       border-top:none;
+       border-right-width: 2px;
+       border-bottom-width: 2px;
+       border-right-color:green ;
+       border-bottom-color: brown;
+       
+    }
+}
+.div5{
+    margin-bottom: 65px;
+}
+.title6{
+    color:rgb(248, 28, 175);
+    text-shadow: 1px 1px rgb(34, 34, 23);
+    font-size:x-large ;
+    font-style: inherit;
+}
+.paragraph5{
+   margin-left:5%;
+   margin-top: 20px;
+   padding:15px;
+   border-radius: 15px;
+   box-shadow: 0.7rem 0.7rem 1rem rgba(15, 197, 182, 0.692);
+   animation: para1move 5s infinite;
+}
+@keyframes para1move {
+    50%{
+       box-shadow: -0.5rem -0.3rem 1rem rgb(135, 179, 33);  
+       transition: box-shadow 2s ease-in-out;
+    }
+    
+}
+.paragraph5:hover{
+   border:2px dotted rgba(0, 0, 255, 0.349);
+}
