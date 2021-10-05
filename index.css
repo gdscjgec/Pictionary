@@ -46,23 +46,22 @@
     /* transition: all 2s; */
     font-size: large;
     font-family: 'IBM Plex Serif', serif;
-    animation: para1move 5s infinite;
-}
-@keyframes para1move {
-    50%{
-       box-shadow: -0.5rem -0.3rem 1rem rgb(135, 179, 33);  
-       transition: box-shadow 2s ease-in-out;
-    }
-    
-}
-.paragraph1:hover{
     border:2px solid;
     border-style: dotted;
 border-left-color: rgba(58, 7, 55, 0.452);
 border-top-color: rgba(133, 10, 57, 0.39);
 border-right-width: 0px;
 border-bottom-width: 0px;
+    animation: para1move 5s infinite;
 }
+@keyframes para1move {
+    50%{
+       box-shadow: -0.5rem -0.3rem 1rem rgba(135, 179, 33, 0.651);  
+       /* transition: box-shadow 2s ease-in-out; */
+    }
+    
+}
+
  .title3{
      color:rgb(8, 148, 31);
      font-weight: bold;
@@ -75,28 +74,30 @@ font-family: 'Lobster', cursive;
 
  }
  .paragraph2{
-     margin-left:4%;
+     
+     margin-left:4px;
      margin-top:16px;
      border:5px solid  rgba(128, 128, 128, 0.068);
-     padding: 15px;
+     padding: 19px;
      border-radius: 20px;
-    box-shadow: -0.6rem -0.2rem 0.8rem  rgb(152, 152, 221);
+     overflow-wrap: break-word;
+    box-shadow: -0.2rem -0.1rem 0.8rem  rgba(68, 68, 100, 0.445);
      /* border-style: groove; */
      /* transition: box-shadow 2s ease-in-out; */
-     animation: move 5s infinite;
+    position: relative;
+    overflow: hidden;
+     /* animation: move 10s alternate infinite; */
  }
- @keyframes move {
-     50%{
+ /* @keyframes move {
+     0%{
         box-shadow: 0.5rem 0.6rem 1rem rgb(179, 33, 58);  
-        transition: box-shadow 2s ease-in-out;
-        border: 1px solid rgba(10, 5, 61, 0.438);
-     }
-     
- }
- .paragraph2:hover{
+        /* transition: box-shadow 2s ease-in-out; */
+        /* border: 1px solid rgba(83, 79, 119, 0.438);    }   
+ }*/ 
+ /* .paragraph2:hover{
    border:0.5px solid rgba(128, 128, 128, 0.397);
     border-style: dashed;
- }
+ } */
  .title4{
      color:rgb(199, 14, 44);
      font-size:xx-large ;
@@ -106,14 +107,14 @@ font-family: 'Lobster', cursive;
  }
 .paragraph3{
     margin-left:5%;
-    margin-top: 2%;
+    margin-top:23px;
     padding:15px;
     border-radius: 15px;
-    box-shadow: 0.7rem 0.7rem 1rem rgba(0, 0, 0, 0.692);
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.692);
 }
 .paragraph3:hover{
-    margin-top:23px;
-    box-shadow: -0.7rem -0.7rem 1rem rgba(0, 0, 0, 0.651);
+  
+    box-shadow: -0.2rem -0.2rem 1rem rgba(0, 0, 0, 0.651);
 }
 .title5{
     color:rgb(17, 14, 199);
@@ -123,28 +124,19 @@ font-family: 'Lobster', cursive;
 }
 .paragraph4{
    margin-left:5%;
-   margin-top: 2%;
+   margin-top:23px;
    padding:15px;
    border-radius: 15px;
-   box-shadow: 0.7rem 0.7rem 1rem rgba(176, 15, 197, 0.692);
+   box-shadow: 0.2rem 0.2rem 1rem rgba(176, 15, 197, 0.342);
+   border-style: solid;
+   border-left:none;
+   border-top:none;
+   border-right-width: 2px;
+   border-bottom-width: 2px;
+   border-right-color:green ;
+   border-bottom-color: brown;
 }
-.paragraph4:hover{
-   margin-top:23px;
-   box-shadow: -0.7rem -0.7rem 1rem rgba(248, 105, 241, 0.979);
-   animation: bordermove 1s infinite;
-}
-@keyframes bordermove {
-    50%{
-       border-style: solid;
-       border-left:none;
-       border-top:none;
-       border-right-width: 2px;
-       border-bottom-width: 2px;
-       border-right-color:green ;
-       border-bottom-color: brown;
-       
-    }
-}
+
 .div5{
     margin-bottom: 65px;
 }
@@ -159,16 +151,17 @@ font-family: 'Lobster', cursive;
    margin-top: 20px;
    padding:15px;
    border-radius: 15px;
-   box-shadow: 0.7rem 0.7rem 1rem rgba(15, 197, 182, 0.692);
-   animation: para1move 5s infinite;
+   box-shadow: 0.3rem 0.3rem 1rem rgba(15, 197, 182, 0.527);
+   animation: para1move 10s infinite;
+
 }
 @keyframes para1move {
     50%{
-       box-shadow: -0.5rem -0.3rem 1rem rgb(135, 179, 33);  
+       box-shadow: -0.5rem -0.3rem 1rem rgba(135, 179, 33, 0.534);  
        transition: box-shadow 2s ease-in-out;
     }
     
 }
-.paragraph5:hover{
+/* .paragraph5:hover{
    border:2px dotted rgba(0, 0, 255, 0.349);
-}
+} */
