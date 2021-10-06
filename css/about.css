@@ -93,3 +93,6 @@ li {
     text-decoration: none;
 
 }
+.darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+  }
