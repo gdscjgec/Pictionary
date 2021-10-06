@@ -9,6 +9,9 @@ body{
     padding-top: 40px;
 }
 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 350px;
     height: 250px;
     position: relative;
