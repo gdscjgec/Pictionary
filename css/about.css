@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url('../pages/images/background.jpg')
+}
 
 li {
     display: inline;
@@ -93,3 +96,6 @@ li {
     text-decoration: none;
 
 }
+.darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+  }
