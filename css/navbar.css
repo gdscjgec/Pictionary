@@ -1,5 +1,4 @@
 /* NAVBAR STYLES */
-
 #Navbarrr {
     padding-left: 30px;
     padding-right: 50px;
@@ -21,3 +20,7 @@
 .nav-item {
     padding-right: 15px;
 }
+
+.darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+  }
