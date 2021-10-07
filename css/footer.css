@@ -26,3 +26,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  @media (max-width: 426px) {
+      .footer-inside {
+          display: flex;
+          flex-direction: column;
+      }
+  }
