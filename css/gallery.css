@@ -25,6 +25,7 @@ body{
     border-radius: 20px;
     box-shadow: 0 5px 30px rgba(211, 77, 24, 0.24), 0 -5px 30px rgba(36, 75, 182, 0.445);
     transition: transform .4s;
+    color: black;
 }
 .box .flip{
     display: flex;
