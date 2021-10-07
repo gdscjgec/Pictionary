@@ -1,192 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pictionary</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/footer.css"/>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Carattere&family=Lobster&family=Rubik+Beastly&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-<!-- BOOTSTRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
 
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
-      rel="stylesheet"
-    />
-    <!-- darkmode -->
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <!-- Navbar brand -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pictionary</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Lobster&family=Rubik+Beastly&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 
-  <body>
-    <!-- BOOTSTRAP NAVBAR -->
-    <section id="Navbarrr">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <!-- navbar brand -->
-          <a href="index.html" class="navbar-brand" id="nb"> Pictionary </a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-          <!-- hamburger menu -->
-          <button
-            class="navbar-toggler me-1"
-            id="nbtn"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navtoggle"
-            aria-controls="navtoggle"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet" />
+  <!-- darkmode -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <!-- Navbar brand -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-          <!-- navbar items -->
-          <div class="collapse navbar-collapse" id="navtoggle">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="../index.html"> Home</a>
-              </li>
+<body>
+  <!-- BOOTSTRAP NAVBAR -->
+  <section id="Navbarrr">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- navbar brand -->
+        <a href="index.html" class="navbar-brand" id="nb"> Pictionary </a>
 
-              <li class="nav-item" id="lg">
-                <a class="nav-link" href="./pages/gallery/landing.html">
-                  Gallery
-                </a>
-              </li>
+        <!-- hamburger menu -->
+        <button class="navbar-toggler me-1" id="nbtn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navtoggle" aria-controls="navtoggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-              <li class="nav-item" id="lg">
-                <a class="nav-link" href="./pages/about.html"> About Us </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </section>
-    <!-- end of navbar -->
+        <!-- navbar items -->
+        <div class="collapse navbar-collapse" id="navtoggle">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html"> Home</a>
+            </li>
 
-    
+            <li class="nav-item" id="lg">
+              <a class="nav-link" href="./pages/gallery/landing.html">
+                Gallery
+              </a>
+            </li>
 
-    <div id="content">
-      <h1 class="title1">I am adding dummy content here</h1>
-      <!-- <br /><br /><br /><br /><br /><br /><br /> -->
-      <div class="div1">
+            <li class="nav-item" id="lg">
+              <a class="nav-link" href="./pages/about.html"> About Us </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- end of navbar -->
+
+
+
+  <div id="content">
+    <h1 class="title1">I am adding dummy content here</h1>
+    <!-- <br /><br /><br /><br /><br /><br /><br /> -->
+    <div class="div1">
       <h3 class="title2">What is Lorem Ipsum?</h3>
       <p class="paragraph1">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum.</p>
-      </div>
-      <!-- <br /><br /><br /><br /><br /><br /> -->
-      <div class="div2">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.</p>
+    </div>
+    <!-- <br /><br /><br /><br /><br /><br /> -->
+    <div class="div2">
       <h3 class="title3">Why do we use it?</h3>
       <p class="paragraph2">
-      It is a long established fact that a reader will be distracted by the
-      readable content of a page when looking at its layout. The point of using
-      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-      as opposed to using 'Content here, content here', making it look like
-      readable English. Many desktop publishing packages and web page editors
-      now use Lorem Ipsum as their default model text, and a search for 'lorem
-      ipsum' will uncover many web sites still in their infancy. Various
-      versions have evolved over the years, sometimes by accident, sometimes on
-      purpose (injected humour and the like).</p>
-      </div>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of using
+        Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+        as opposed to using 'Content here, content here', making it look like
+        readable English. Many desktop publishing packages and web page editors
+        now use Lorem Ipsum as their default model text, and a search for 'lorem
+        ipsum' will uncover many web sites still in their infancy. Various
+        versions have evolved over the years, sometimes by accident, sometimes on
+        purpose (injected humour and the like).</p>
+    </div>
 
-      <!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
-      <div class="div3">
+    <!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
+    <div class="div3">
       <h3 class="title4">Where does it come from?</h3>
       <p class="paragraph3">
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-      roots in a piece of classical Latin literature from 45 BC, making it over
-      2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-      College in Virginia, looked up one of the more obscure Latin words,
-      consectetur, from a Lorem Ipsum passage, and going through the cites of
-      the word in classical literature, discovered the undoubtable source. Lorem
-      Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
-      book is a treatise on the theory of ethics, very popular during the
-      Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-      amet..", comes from a line in section 1.10.32. The standard chunk of Lorem
-      Ipsum used since the 1500s is reproduced below for those interested.
-      Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
-      Cicero are also reproduced in their exact original form, accompanied by
-      English versions from the 1914 translation by H. Rackham. Lorem Ipsum is
-      simply dummy text of the printing and typesetting industry. Lorem Ipsum
-      has been the industry's standard dummy text ever since the 1500s, when an
-      unknown printer took a galley of type and scrambled it to make a type
-      specimen book. It has survived not only five centuries, but also the leap
-      into electronic typesetting, remaining essentially unchanged. It was
-      popularised in the 1960s with the release of Letraset sheets containing
-      Lorem Ipsum passages, and more recently with desktop publishing software
-      like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>
-      <!-- <br /><br /><br /><br /><br /><br /> -->
-      <div class="div4">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+        roots in a piece of classical Latin literature from 45 BC, making it over
+        2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words,
+        consectetur, from a Lorem Ipsum passage, and going through the cites of
+        the word in classical literature, discovered the undoubtable source. Lorem
+        Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+        Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+        book is a treatise on the theory of ethics, very popular during the
+        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+        amet..", comes from a line in section 1.10.32. The standard chunk of Lorem
+        Ipsum used since the 1500s is reproduced below for those interested.
+        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+        Cicero are also reproduced in their exact original form, accompanied by
+        English versions from the 1914 translation by H. Rackham. Lorem Ipsum is
+        simply dummy text of the printing and typesetting industry. Lorem Ipsum
+        has been the industry's standard dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and scrambled it to make a type
+        specimen book. It has survived not only five centuries, but also the leap
+        into electronic typesetting, remaining essentially unchanged. It was
+        popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software
+        like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <!-- <br /><br /><br /><br /><br /><br /> -->
+    <div class="div4">
       <h3 class="title5">Why do we use it?</h3>
       <p class="paragraph4">
-      It is a long established fact that a reader will be distracted by the
-      readable content of a page when looking at its layout. The point of using
-      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-      as opposed to using 'Content here, content here', making it look like
-      readable English. Many desktop publishing packages and web page editors
-      now use Lorem Ipsum as their default model text, and a search for 'lorem
-      ipsum' will uncover many web sites still in their infancy. Various
-      versions have evolved over the years, sometimes by accident, sometimes on
-      purpose (injected humour and the like).</p>
-      </div>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of using
+        Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+        as opposed to using 'Content here, content here', making it look like
+        readable English. Many desktop publishing packages and web page editors
+        now use Lorem Ipsum as their default model text, and a search for 'lorem
+        ipsum' will uncover many web sites still in their infancy. Various
+        versions have evolved over the years, sometimes by accident, sometimes on
+        purpose (injected humour and the like).</p>
+    </div>
 
-      <!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
-      <div class="div5">
+    <!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
+    <div class="div5">
       <h3 class="title6">Where does it come from?</h3>
       <p class="paragraph5">
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-      roots in a piece of classical Latin literature from 45 BC, making it over
-      2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-      College in Virginia, looked up one of the more obscure Latin words,
-      consectetur, from a Lorem Ipsum passage, and going through the cites of
-      the word in classical literature, discovered the undoubtable source. Lorem
-      Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
-      book is a treatise on the theory of ethics, very popular during the
-      Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-      amet..", comes from a line in section 1.10.32. The standard chunk of Lorem
-      Ipsum used since the 1500s is reproduced below for those interested.
-      Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
-      Cicero are also reproduced in their exact original form, accompanied by
-      English versions from the 1914 translation by H. Rackham.</p>
-      </div>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+        roots in a piece of classical Latin literature from 45 BC, making it over
+        2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words,
+        consectetur, from a Lorem Ipsum passage, and going through the cites of
+        the word in classical literature, discovered the undoubtable source. Lorem
+        Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+        Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+        book is a treatise on the theory of ethics, very popular during the
+        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+        amet..", comes from a line in section 1.10.32. The standard chunk of Lorem
+        Ipsum used since the 1500s is reproduced below for those interested.
+        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+        Cicero are also reproduced in their exact original form, accompanied by
+        English versions from the 1914 translation by H. Rackham.</p>
     </div>
-    <div class="footer">
+  </div>
+
+  <footer class="bg-dark">
+    <div class="container py-3 container text-center">
+        <div class="row py-2 container text-center">
+            <div class="col-lg-2 col-md-6 mb-3 mb-lg-0 container text-center">
+                <h6 class="text-uppercase font-weight-bold mb-4 text-danger">About</h6>
+                <ul class="list-unstyled mb-0 text-decoration-none">
+                    <li class="mb-2"><a href="#" class="text-danger">Contact Us</a></li>
+                    <br>
+                    <li class="mb-2"><a href="#" class="text-danger">About Us</a></li>
+                    <br>
+                    <li class="mb-2"><a href="#" class="text-danger">Gallery</a></li>
+                    <br>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-3 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4 text-danger  ">Help</h6>
+                <a href="mailto:gdscjgec@gmail.com" class="fa fa-google"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                 <a href="#" class="fa fa-instagram"></a>
+                 </div>
+            
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+                <h6 class="text-uppercase font-weight-bold mb-4 text-danger ">Address</h6>
+                <p class="text-danger mb-4">Address	Travesía Armas, 5, 72º F	City	As Costa del Puerto
+                  State	Bilzen	Zip Code	12493</p>
+                
+            </div>
+        </div>
+    </div>
+    <hr class="p-0 m-0 b-0">
+    <div class="bg-danger py-2">
+        <div class="container text-center">
+            <p class="text-dark mb-0 py-2 ">© Made with ❤ by gdscjgec
+            </p>
+        </div>
+    </div>
+</footer>
+  
+
+
+  <!--<div class="footer">
       <div class="footer-inside">
         <div class="footer-info">
           <h2>Made with ❤ by gdscjgec</h2>
@@ -207,7 +240,8 @@
           <a href="https://github.com/gdscjgec" target="_blank">💻 Github</a>
         </div>
       </div>
-    </div>
-    <script src="./js/app.js"></script>
-  </body>
+    </div>-->
+  <script src="./js/app.js"></script>
+</body>
+
 </html>
