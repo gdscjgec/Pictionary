@@ -10,7 +10,7 @@
     background: linear-gradient(90deg,rgb(29, 16, 214),rgb(224, 13, 161),rgb(177, 6, 177),red,darkslategrey,darkturquoise);
     background-size: 400%;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    /*-webkit-background-clip: text;*/
     animation: animate 10s linear infinite;
     text-align: center;
 }

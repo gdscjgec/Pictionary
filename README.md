@@ -122,6 +122,10 @@ Contributions are what make the open source community such an amazing place to l
 5. Push to the Branch ( `git push origin feature/AmazingFeature` )
 6. Open a Pull Request
 
+## Add your Name
+
+Once you make your contribution, do not forget to add your name in contributors.html file. Further instructions are mentioned there.
+
 
 ## Usage
 
