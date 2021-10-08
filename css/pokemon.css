@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    max-width: 15rem;
+    margin-bottom: 5rem;
+    border: 2px solid blueviolet;
+}
+
+.image {
+    background-color: #E8E8E8;
+}
+
+.name {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
