@@ -1,5 +1,13 @@
+
+const hamburgerBtn = document.querySelector(".navbar-toggler");
+const hamburgerMenu = document.querySelector(".collapse.navbar-collapse");
+const changeState = () => {
+  hamburgerMenu.classList.toggle('show');
+}
+
 function addDarkmodeWidget() {
   new Darkmode().showWidget();
+  hamburgerBtn.addEventListener('click', changeState);
 }
 window.addEventListener('load', addDarkmodeWidget);
 

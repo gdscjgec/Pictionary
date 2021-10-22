@@ -165,3 +165,7 @@ font-family: 'Lobster', cursive;
 /* .paragraph5:hover{
    border:2px dotted rgba(0, 0, 255, 0.349);
 } */
+
+.show {
+    display: block;
+}
