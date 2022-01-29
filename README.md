@@ -1,5 +1,3 @@
-<div align="center"><a href="https://hacktoberfest.digitalocean.com/"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Banner" width="60%"/></a></div>
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -22,6 +20,21 @@
     <a href="">Request Feature</a>
   </p>
 </p>
+
+<p align="center">Participating in</p>
+<div align="center"><a href="#"><img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Banner" width="50%"/></a></div>
+<br><br>
+<div align="center"><a href="#"><img src="https://d33wubrfki0l68.cloudfront.net/710cb0d537d2e7fa6246445c0977ecc994f05f5a/6a3b4/assets/img/jwoc_logo.svg" alt="Banner" width="30%"/></a></div>
+
+<br />
+<div align="center">
+  <h2 align="center"> An initiative by</h2>
+  <a href="https://github.com/gdscjgec">
+    <img src="https://pbs.twimg.com/profile_banners/1481282792160116738/1642000467/1500x500" alt="Logo">
+  </a>
+  <br />
+  <a href="#"><strong>Explore the docs 🗺️</strong></a>
+</div>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
