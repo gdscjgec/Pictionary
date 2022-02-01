@@ -99,7 +99,7 @@ To get a local copy up and running follow these simple example steps.
 Setting up development environment ( for VS Code Users)
   
   Install The Live server extension on your native VS Code: [Link](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-  (Helps you to run the live project and hot reload any changes that you make in it)
+  (Helps you to run the live project and not reload any changes that you make in it)
   
   Set up the project directory :
   
