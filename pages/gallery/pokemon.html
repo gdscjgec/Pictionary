@@ -10,9 +10,17 @@
 </head>
 <body>
     <h1>Pokemons</h1>
+    <button id="icon">🌓</button>
     <div class="pokemons">
 
     </div>
+
+    <script>
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+      document.body.classList.toggle("dark-theme");
+    }
+    </script>
 </body>
 
 <script src="../../js/pokemon.js" ></script>

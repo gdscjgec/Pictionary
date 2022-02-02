@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('../pages/images/background.jpg')
+    /*background-image: url('../pages/images/background.jpg')*/
+    background-image: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
 li {
@@ -98,4 +99,30 @@ li {
 }
 .darkmode-layer, .darkmode-toggle {
     z-index: 500;
+  }
+
+
+
+  /*-- DARK THEME CSS--*/
+  #icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    background-color: var(--secondary-color);
+  }
+
+  :root{
+    --primary-color: #f5f7fa;
+    --secondary-color: #e8e2e2;
+    --color:#000;
+  }
+
+  .dark-theme{
+    --primary-color:#1b1919;
+    --secondary-color:#000;
+    --color:#fff;
   }
