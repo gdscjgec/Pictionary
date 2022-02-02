@@ -48,10 +48,10 @@
     font-family: 'IBM Plex Serif', serif;
     border:2px solid;
     border-style: dotted;
-border-left-color: rgba(58, 7, 55, 0.452);
-border-top-color: rgba(133, 10, 57, 0.39);
-border-right-width: 0px;
-border-bottom-width: 0px;
+    border-left-color: rgba(58, 7, 55, 0.452);
+    border-top-color: rgba(133, 10, 57, 0.39);
+    border-right-width: 0px;
+    border-bottom-width: 0px;
     animation: para1move 5s infinite;
 }
 @keyframes para1move {
@@ -69,19 +69,18 @@ border-bottom-width: 0px;
      font-size:xx-large;
      font-style: oblique;
      font-family: 'Carattere', cursive;
-font-family: 'Lobster', cursive;
-/* font-family: 'Rubik Beastly', cursive; */
+     font-family: 'Lobster', cursive;
+     /* font-family: 'Rubik Beastly', cursive; */
+}
 
- }
  .paragraph2{
-     
      margin-left:5%;
      margin-top:16px;
      border:5px solid  rgba(128, 128, 128, 0.068);
      padding: 19px;
      border-radius: 20px;
      overflow-wrap: break-word;
-    box-shadow: -0.2rem -0.1rem 0.8rem  rgba(68, 68, 100, 0.445);
+     box-shadow: -0.2rem -0.1rem 0.8rem  rgba(68, 68, 100, 0.445);
      /* border-style: groove; */
      /* transition: box-shadow 2s ease-in-out; */
     position: relative;
@@ -105,6 +104,7 @@ font-family: 'Lobster', cursive;
      /* font-style: inherit; */
      font-family: 'Satisfy', cursive;
  }
+
 .paragraph3{
     margin-left:5%;
     margin-top:23px;
@@ -112,16 +112,18 @@ font-family: 'Lobster', cursive;
     border-radius: 15px;
     box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.692);
 }
+
 .paragraph3:hover{
-  
-    box-shadow: -0.2rem -0.2rem 1rem rgba(0, 0, 0, 0.651);
+      box-shadow: -0.2rem -0.2rem 1rem rgba(0, 0, 0, 0.651);
 }
+
 .title5{
     color:rgb(17, 14, 199);
     text-shadow: 1px 1px rgb(230, 226, 29);
     font-size:x-large ;
     font-style: inherit;
 }
+
 .paragraph4{
    margin-left:5%;
    margin-top:23px;
@@ -140,12 +142,14 @@ font-family: 'Lobster', cursive;
 .div5{
     margin-bottom: 65px;
 }
+
 .title6{
     color:rgb(248, 28, 175);
     text-shadow: 1px 1px rgb(34, 34, 23);
     font-size:x-large ;
     font-style: inherit;
 }
+
 .paragraph5{
    margin-left:5%;
    margin-top: 20px;
