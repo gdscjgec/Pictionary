@@ -62,6 +62,7 @@
   <body>
     <div class="team page">
         <div class="title">Meet our Contributors <span class="num"></span> </div>
+        <button id="icon">🌓</button>
         <input type="text" id="search" placeholder="Search for a contributor">
         <div class="card-container">
 
@@ -91,7 +92,7 @@
                 Step 3:
                 Save you changes. Yay! your card is created. So now just sit back and enjoy🎉.
                 Also don't forget to leave a space after your code, so as to make it easy for others.
-        
+
             -->
 
 
@@ -113,8 +114,15 @@
                 <div class="sub">Populated cards with data </div>
                 <a class="btn" href="https://github.com/Sanga-Pal" target="_blank">View Profile</a>
             </div>
-          
+
     </div>
     <script src="./js/main.js"></script>
+
+    <script>
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+      document.body.classList.toggle("dark-theme");
+    }
+    </script>
 </body>
 </html>

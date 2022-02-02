@@ -24,6 +24,7 @@
     <div class="hd1">
       <h1>Gallery</h1>
     </div>
+    <button id="icon">🌓</button>
     <div class="flex-container row">
       <div class="box col-lg-4">
         <div class="gallery">
@@ -51,9 +52,9 @@
         <div class="flip">
           <a href="../gallery/dogs.html"><h2>Dogs</h2></a>
           <p>
-            The dog or domestic dog (Canis familiaris) is a domesticated descendant of the grey wolf, 
-            characterized by an upturning tail. The dog was the first 
-            species to be domesticated, by hunter–gatherers over 15,000 years ago, before the 
+            The dog or domestic dog (Canis familiaris) is a domesticated descendant of the grey wolf,
+            characterized by an upturning tail. The dog was the first
+            species to be domesticated, by hunter–gatherers over 15,000 years ago, before the
             development of agriculture.
           </p>
         </div>
@@ -173,5 +174,12 @@
         </div>
       </div>
     </div>
+
+    <script>
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+      document.body.classList.toggle("dark-theme");
+    }
+    </script>
   </body>
 </html>
