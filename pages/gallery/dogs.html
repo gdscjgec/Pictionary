@@ -10,9 +10,16 @@
 </head>
 <body>
     <h1>Dogs Gallery</h1>
-    
+    <button id="icon">🌓</button>
     <div class="dogs">
     </div>
+    
+    <script>
+    var icon= document.getElementById("icon");
+    icon.onclick=function(){
+      document.body.classList.toggle("dark-theme");
+    }
+    </script>
 </body>
 
 <script src="../../js/dogs.js" ></script>
