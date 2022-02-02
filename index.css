@@ -85,10 +85,10 @@
     font-family: 'IBM Plex Serif', serif;
     border:2px solid;
     border-style: dotted;
-    border-left-color: rgba(58, 7, 55, 0.452);
-    border-top-color: rgba(133, 10, 57, 0.39);
-    border-right-width: 0px;
-    border-bottom-width: 0px;
+border-left-color: rgba(58, 7, 55, 0.452);
+border-top-color: rgba(133, 10, 57, 0.39);
+border-right-width: 0px;
+border-bottom-width: 0px;
     animation: para1move 5s infinite;
 }
 @keyframes para1move {
@@ -104,25 +104,18 @@
      font-weight: bold;
      text-shadow: 1px 1px rgb(51, 201, 201);
      font-size:xx-large;
-     font-style: oblique;
-     font-family: 'Carattere', cursive;
-     font-family: 'Lobster', cursive;
-     /* font-family: 'Rubik Beastly', cursive; */
-}
      font-family: Ubuntu, sans-serif;
 /* font-family: 'Rubik Beastly', cursive; */
 
-
+ }
  .paragraph2{
+
      margin-left:5%;
      margin-top:16px;
      border:5px solid  rgba(128, 128, 128, 0.068);
      padding: 19px;
      border-radius: 20px;
      overflow-wrap: break-word;
-
-     box-shadow: -0.2rem -0.1rem 0.8rem  rgba(68, 68, 100, 0.445);
-
     box-shadow: -0.2rem -0.1rem 0.8rem  rgba(68, 68, 100, 0.445);
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
@@ -149,7 +142,6 @@
      /* font-style: inherit; */
      font-family: Ubuntu, sans-serif;
  }
-
 .paragraph3{
     margin-left:5%;
     margin-top:23px;
@@ -158,16 +150,10 @@
     box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.692);
     font-family: 'Comic Neue', cursive;
 }
-
 .paragraph3:hover{
 
-      box-shadow: -0.2rem -0.2rem 1rem rgba(0, 0, 0, 0.651);
-
-
     box-shadow: -0.2rem -0.2rem 1rem rgba(0, 0, 0, 0.651);
-
 }
-
 .title5{
     color: #000;
     text-shadow: 1px 1px rgb(230, 226, 29);
@@ -175,7 +161,6 @@
     font-style: inherit;
     font-family: Ubuntu, sans-serif;
 }
-
 .paragraph4{
    margin-left:5%;
    margin-top:23px;
@@ -195,7 +180,6 @@
 .div5{
     margin-bottom: 65px;
 }
-
 .title6{
     color: #000;
     text-shadow: 1px 1px rgb(34, 34, 23);
@@ -203,7 +187,6 @@
     font-style: inherit;
     font-family: Ubuntu, sans-serif;
 }
-
 .paragraph5{
    margin-left:5%;
    margin-top: 20px;
