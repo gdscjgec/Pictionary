@@ -214,5 +214,5 @@ border-bottom-width: 0px;
             to right, #5800FF, #981bcb,#FFE400,
              #5800FF, #981bcb);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+        /* -webkit-background-clip: text; */
 }
