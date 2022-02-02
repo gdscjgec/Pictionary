@@ -164,3 +164,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Mail us at - gdsc@jgec.ac.in
+
+## Contributors
+
+Thanks to these wonderful people ✨✨:
+
+<a href="https://github.com/gdscjgec/Pictionary/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gdscjgec/Pictionary" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
