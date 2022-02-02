@@ -100,3 +100,25 @@ body{
   --secondary-color:#000;
   --color:#fff;
 }
+
+@media (max-width:400px){
+    .box{
+        width: 300px;
+        height: 200px;
+        transform: scale(0.75);
+
+    }
+    .row{
+        margin: auto;
+    }
+
+    .box:hover .gallery{
+        transform:   perspective(800px) rotateX(180deg); 
+    }
+
+    .box:hover .flip{
+       transform:  perspective(800px) rotateX(0);
+    }
+
+
+} 
