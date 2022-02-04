@@ -40,17 +40,9 @@ body {
 
 
 /*-- DARK THEME CSS--*/
-#icon{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: fixed;
-  top: 10px;
-  left: 20px;
-  font-size: 20px;
-  background-color: var(--secondary-color);
+.darkmode-toggle {
+  z-index: 500;
 }
-
 :root{
   --primary-color: #f5f7fa;
   --secondary-color: #c3cfe2;
