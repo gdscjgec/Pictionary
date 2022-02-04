@@ -10,15 +10,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-  
+
   <!-- BOOTSTRAP -->
-  <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- darkmode -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
   
   <!--CSS file link-->
   <link rel="stylesheet" href="../../css/gallery.css" />
@@ -45,12 +44,13 @@
           <!-- navbar items -->
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="../../index.html" style="font-weight: 700; font-size: 22px;">Home &nbsp &nbsp </a>
+              <a class="nav-link" href="../../index.html" style="font-weight: 700; font-size: 22px;">Home &nbsp &nbsp
+              </a>
             </li>
 
             <li class="nav-item" id="lg">
               <a target="" class="nav-link active" href="./landing.html"
-                style="font-weight: 700; font-size: 22px;">Gallery &nbsp &nbsp  </a>
+                style="font-weight: 700; font-size: 22px;">Gallery &nbsp &nbsp </a>
             </li>
 
             <li class="nav-item" id="lg">
@@ -74,7 +74,6 @@
   <div class="hd1">
     <h1>Gallery</h1>
   </div>
-  <button id="icon">🌓</button>
   <div class="flex-container row">
     <div class="box col-lg-4">
       <div class="gallery">
@@ -215,12 +214,8 @@
     </div>
   </div>
 
-  <script>
-    var icon = document.getElementById("icon");
-    icon.onclick = function () {
-      document.body.classList.toggle("dark-theme");
-    }
-  </script>
+  <script src="../../js/app.js"></script>
+
 </body>
 
 </html>
