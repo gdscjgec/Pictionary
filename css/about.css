@@ -1,128 +1,153 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    /*background-image: url('../pages/images/background.jpg')*/
-    background-image: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+body {
+  /*background-image: url('../pages/images/background.jpg')*/
+  background-image: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
 }
 
 li {
-    display: inline;
+  display: inline;
 }
-
 
 /* NAVBAR STYLES */
 
 #Navbarrr {
-    padding-left: 30px;
-    padding-right: 50px;
-    /* background-color: #96BAFF; */
+  padding-left: 30px;
+  padding-right: 50px;
+  /* background-color: #96BAFF; */
 }
 
-
 .navbar {
-    font-size: 1em;
-    font-family: 'ABeeZee', sans-serif;
+  font-size: 1em;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 #nb {
-    font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
-    color: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-item {
-    padding-right: 15px;
+  padding-right: 15px;
 }
-
 
 /* ABOUT SECTION STYLES */
 
 #about {
-    position: relative;
-    top: 30px;
-    margin-left: 50px;
-
+  position: relative;
+  top: 30px;
+  margin-left: 50px;
 }
 
 .about_header {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 2.8rem;
-    font-weight: 600;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 100px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 
 .about_header_pic {
-    height: 65px;
-    width: 65px;
-    position: relative;
-    bottom: 20px;
-    left: 5px;
+  height: 65px;
+  width: 65px;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
 }
 
 .about_pic {
-    width: 280px;
-    height: 280px;
-    border-radius: 10px;
-    position: relative;
-    left: 95px;
-    margin-top: 50px;
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+  position: relative;
+  left: 95px;
+  margin-top: 50px;
 }
 
 .about_info {
-    position: relative;
-    top: 50px;
-    font-family: 'Heebo', sans-serif;
+  position: relative;
+  top: 50px;
+  font-family: 'Heebo', sans-serif;
 }
 
 .about_span {
-    font-size: 1.5rem;
-    font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .about_2 {
-    width: 70%;
+  width: 70%;
 }
 
 .about_2_built {
-    font-size: 1.5rem;
-    font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .about_project {
-    text-decoration: none;
-
+  text-decoration: none;
 }
-.darkmode-layer, .darkmode-toggle {
-    z-index: 500;
-  }
+.darkmode-layer,
+.darkmode-toggle {
+  z-index: 500;
+}
 
+/*-- DARK THEME CSS--*/
+#icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  background-color: var(--secondary-color);
+}
 
+:root {
+  --primary-color: #f5f7fa;
+  --secondary-color: #e8e2e2;
+  --color: #000;
+}
 
-  /*-- DARK THEME CSS--*/
-  #icon{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    font-size: 20px;
-    background-color: var(--secondary-color);
-  }
+.dark-theme {
+  --primary-color: #1b1919;
+  --secondary-color: #000;
+  --color: #fff;
+}
 
-  :root{
-    --primary-color: #f5f7fa;
-    --secondary-color: #e8e2e2;
-    --color:#000;
-  }
+.copyright {
+  padding: 28px 0;
+  margin-top: 55px;
+  background-color: #E8E2E2;
+}
+.copyright span,
+.copyright a {
+  color: #212529;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-decoration: none !important;
+}
+.copyright a:hover {
+  color: #007bff;
+}
 
-  .dark-theme{
-    --primary-color:#1b1919;
-    --secondary-color:#000;
-    --color:#fff;
-  }
+.copyright-menu ul {
+  text-align: right;
+  margin: 0 15px 0 0;
+}
+
+.copyright-menu li {
+  display: inline-block;
+  padding-left: 20px;
+}
