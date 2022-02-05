@@ -78,17 +78,9 @@ body{
 }
 
 /*-- DARK THEME CSS--*/
-#icon{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: fixed;
-  top: 10px;
-  left: 20px;
-  font-size: 20px;
-  background-color: var(--secondary-color);
-}
-
+.darkmode-toggle {
+    z-index: 500;
+  }
 :root{
   --primary-color: #f5f7fa;
   --secondary-color: #c3cfe2;
@@ -120,5 +112,35 @@ body{
        transform:  perspective(800px) rotateX(0);
     }
 
-
 } 
+
+
+
+.copyright {
+    padding: 28px 0;
+    margin-top: 55px;
+    background-color: #E8E2E2;
+  }
+  .copyright span,
+  .copyright a {
+    color: #212529;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    text-decoration: none !important;
+  }
+  .copyright a:hover {
+    color: #007bff;
+  }
+  
+  .copyright-menu ul {
+    text-align: right;
+    margin: 0 15px 0 0;
+  }
+  
+  .copyright-menu li {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  
+  

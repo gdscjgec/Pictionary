@@ -57,6 +57,8 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -158,29 +160,52 @@
         </p>
       </div>
     </div>
-    <div style="font-family: 'Cairo', sans-serif;" class="footer">
-      <div class="footer-inside">
-        <div class="footer-info">
-          <h2>Made with ❤ by GDSCJGEC</h2>
-          <a
-            href="https://github.com/gdscjgec/Pictionary/issues/7"
-            target=""
-            >Take me to the repository!</a
-          >
+    <footer class="footer">
+      <hr class="colored p-2" />
+      <div class="container-fluid p-3 bg-clr1">
+        <div class="row mt-2">
+          <div class="col-sm-6 col-md-3 mb-2 mb-md-0 text-center">
+            <h3>Made with 🖤 &nbsp; by </h3>
+            <img src="pages/images/GDSC_Icon.png"
+           class="img-circle mb-3" alt="Responsive Image"
+           width="66" height="66" />
+            <p class="nav-links"><a href="https://github.com/gdscjgec" >Google Developer Student Clubs - JGEC</a></p>
+          </div>
+          <div class="col-sm-6 col-md-2 mb-2 mb-md-0 text-center">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled nav-links">
+              <li><a href="/pages/gallery/landing.html">Gallery</a></li>
+              <li><a href="./pages/about.html">About Us</a></li>
+              <li><a href="./contributors.html">Contributors</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-2 mb-2 mb-md-0 text-center">
+              <h3>Connect With Us </h3>
+              <ul class="list-unstyled nav-links mb-4 ">
+                  <li><a href="https://github.com/gdscjgec"><i class="fa fa-github icon"></i>&nbsp; Go to Github</a></li>
+                  <li><a href="mailto:gdscjgec@gmail.com"><i class="fa fa-envelope icon"></i>&nbsp; Click Me to email</a></li>
+                </ul>
+            </div>
+          <div class="col-sm-8 col-md-5 mb-2 mb-md-0 text-center">
+            <h3>Subscribe to our Newsletter</h3>
+            <p class="mb-4">Get the latest information about the newly updated content right in your inbox.</p>
+            <form action="#" class="subscribe">
+                <input type="text" class="form-control" placeholder="Enter your e-mail">
+                <input type="submit" class="btn btn-submit" value="Submit">
+              </form>
+          </div>
         </div>
-        <div class="footer-links">
-          <h2>Pages</h2>
-          <a href="./pages/about.html">About</a>
-          <a href="./contributors.html">Contributors</a>
-          <a href="./pages/gallery/landing.html">Gallery</a>
         </div>
-        <div class="footer-social">
-          <h2>Social Links</h2>
-          <a href="mailto:gdscjgec@gmail.com" target="">✉ Email</a>
-          <a href="https://github.com/gdscjgec" target="">💻 Github</a>
-        </div>
+        <div class="container-fluid bg-clr2">   
+          <div class="row ">
+              <div class="d-flex justify-content-between">
+                  <p class="text-dark mt-2 pt-2">Copyright &copy; 2022 , All Rights Reserved</p>
+                  <p class="back mt-2 pt-2 "><a href="./index.html" ><i class="fa fa-repeat text-dark" aria-hidden="true"></i>&nbsp; Back to Top</a></p>
+              </div>
+          </div>
       </div>
-    </div>
+    </footer>
+
      <script src="./js/app.js"></script>
   </body>
 </html>
