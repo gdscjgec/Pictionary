@@ -322,3 +322,32 @@ body {
   --secondary-color:#000;
   --color:#fff;
 }
+
+
+.copyright {
+  padding: 28px 0;
+  margin-top: 55px;
+  background-color: #E8E2E2;
+}
+.copyright span,
+.copyright a {
+  color: #212529;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-decoration: none !important;
+}
+.copyright a:hover {
+  color: #007bff;
+}
+
+.copyright-menu ul {
+  text-align: right;
+  margin: 0 15px 0 0;
+}
+
+.copyright-menu li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
