@@ -46,15 +46,16 @@ h1 {
     margin: 0;
 }
 
-.link a {
+.email_id a {
     text-decoration: none;
     background-color: var(--cmail-color);
     padding: 5px;
     border-radius: 8px;
     color: var(--csecondary-color);
+    z-index: 1000;
 }
 
-.link {
+.email_id {
     margin-bottom: 10px;
 }
 
@@ -72,9 +73,8 @@ h1 {
     margin-left: 25%;
     margin-right: 25%;
     width: 160px;
-    /*   border-radius: 50%; */
-    /*   border: 2px solid gold; */
     left: -55px;
     top: -18px;
     zoom: 3.6;
+    z-index: -1;
 }
