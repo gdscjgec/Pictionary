@@ -11,6 +11,20 @@
 <body>
     <h1>Pokemons</h1>
     <button id="icon">🌓</button>
+
+    <div class="pokemon-input">
+      <select id="sort" value="asc" onchange="handleSortChange()">
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+        <option value="alpha">A-Z</option>
+        <option value="dealpha">Z-A</option>
+
+      </select>
+
+      <input type="text" value="" placeholder="Search Pokemon" id="search" onchange="handleSearchChange()">
+
+    </div>
+
     <div class="pokemons">
 
     </div>
