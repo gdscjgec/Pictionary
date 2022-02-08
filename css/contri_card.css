@@ -14,6 +14,7 @@
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -77,4 +78,11 @@ h1 {
     top: -18px;
     zoom: 3.6;
     z-index: -1;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .cards{
+      flex-direction : column;
+    }
 }
