@@ -28,6 +28,8 @@ body {
 
 .image {
     background-color: #E8E8E8;
+    height: 150px;
+    width: 150px;
 }
 
 .name {
