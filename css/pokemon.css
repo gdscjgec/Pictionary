@@ -54,3 +54,25 @@ body {
   --secondary-color:#000;
   --color:#fff;
 }
+
+.singlePokemonModal {
+  margin: 0px;
+  background-image: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: var(--color);
+  top: 0px;
+  left: 0px;
+  position: sticky;
+  height: 100vh;
+  width: 98.75vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+
+.singlePokemonHeader{
+  display: flex;
+  flex-direction: column;
+
+}
