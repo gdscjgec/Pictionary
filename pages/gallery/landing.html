@@ -5,29 +5,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../css/gallery.css" />
+ <title>Gallery</title>
+    <!-- Favicon image -->
+	 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+	 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
-    <title>Gallery</title>
-</head>
 
-<!--Google fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- BOOTSTRAP -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- darkmode -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 
-<!-- darkmode -->
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-
-<!--CSS file link-->
-<link rel="stylesheet" href="../../css/gallery.css" />
-<title>Gallery</title>
+    <!--CSS file link-->
+    <link rel="stylesheet" href="../../css/gallery.css" />
+   
 </head>
 
 <body>
@@ -39,53 +41,83 @@
                 <!-- navbar brand -->
                 <!-- <a href="index.html" class="navbar-brand" id="nb"> Pictionary </a> -->
                 <a href="../../index.html" class="navbar-brand">
-                    <img src="../images/name.png" class="w-50 ">
+                    <img src="../images/site_logo.png" class="img-fluid ms-md-5" style="width: 100px; height: 100px;">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <!-- hamburger menu -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- navbar items -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="../../index.html" style="font-weight: 700; font-size: 22px;">Home &nbsp &nbsp
-              </a>
+                            <a class="nav-link" href="../../index.html" style="font-weight: 700; font-size: 22px;">Home
+                                &nbsp &nbsp
+                            </a>
                         </li>
 
                         <li class="nav-item" id="lg">
-                            <a target="" class="nav-link active" href="./landing.html" style="font-weight: 700; font-size: 22px;">Gallery &nbsp &nbsp </a>
+                            <a target="" class="nav-link active" href="./landing.html"
+                                style="font-weight: 700; font-size: 22px;">Gallery &nbsp &nbsp </a>
                         </li>
 
                         <li class="nav-item" id="lg">
-                            <a target="" class="nav-link" href="../../contributors.html" style="font-weight: 700; font-size: 22px;">
-                Contributors &nbsp &nbsp </a>
+                            <a target="" class="nav-link" href="../../contributors.html"
+                                style="font-weight: 700; font-size: 22px;">
+                                Contributors &nbsp &nbsp </a>
                         </li>
 
                         <li class="nav-item" id="lg">
-                            <a target="" class="nav-link" href="../about.html" style="font-weight: 700; font-size: 22px;"> About
-                Us &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </a>
+                            <a target="" class="nav-link" href="../about.html"
+                                style="font-weight: 700; font-size: 22px;"> About
+                                Us &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </a>
                         </li>
                     </ul>
                 </div>
-                <div class="flip">
-                    <h2>Birds</h2>
-                    <p>
-                        Birds are a group of warm blooded vertebratres constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled egg,a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. There are
-                        more than ten thousand living species of birds.
-                    </p>
-                </div>
+            </nav>
+        </div>
+        </div>
+    </section>
+    <!-- end of navbar -->
+
+
+    <div class="hd1">
+        <h1>Gallery</h1>
+    </div>
+    <div class="flex-container row">
+        <div class="box col-lg-4">
+            <div class="gallery">
+                <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1188,w_2121,x_0,y_142/f_auto,q_auto,w_1100/v1554733134/shape/mentalfloss/78996-istock-682216682.jpg"
+                    alt="" />
+            </div>
+            <div class="flip">
+                <a href="../gallery/birds.html">
+                <h2>Birds</h2>
+                </a>
+                <p>
+                    Birds are a group of warm blooded vertebratres constituting the class Aves, characterised by
+                    feathers, toothless beaked jaws, the laying of hard-shelled egg,a high metabolic rate, a
+                    four-chambered heart,
+                    and a strong yet lightweight skeleton. There are more than ten thousand living species of birds.
+                </p>
+            </div>
         </div>
         <div class="box col-lg-4">
             <div class="gallery">
-                <img src="https://media.nature.com/lw800/magazine-assets/d41586-020-01430-5/d41586-020-01430-5_17977552.jpg" alt="" />
+                <img src="https://media.nature.com/lw800/magazine-assets/d41586-020-01430-5/d41586-020-01430-5_17977552.jpg"
+                    alt="" />
             </div>
             <div class="flip">
                 <a href="../gallery/dogs.html">
                     <h2>Dogs</h2>
                 </a>
                 <p>
-                    The dog or domestic dog (Canis familiaris) is a domesticated descendant of the grey wolf, characterized by an upturning tail. The dog was the first species to be domesticated, by hunter–gatherers over 15,000 years ago, before the development of agriculture.
+                    The dog or domestic dog (Canis familiaris) is a domesticated descendant of the grey wolf,
+                    characterized by an upturning tail. The dog was the first
+                    species to be domesticated, by hunter gatherers over 15,000 years ago, before the
+                    development of agriculture.
                 </p>
             </div>
         </div>
@@ -98,157 +130,134 @@
                     <h2>Pokemons</h2>
                 </a>
                 <p>
-                    Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996, and is centered on fictional
+                    Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed
+                    by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures.
+                    The franchise was created by Satoshi Tajiri in 1996, and is centered on fictional
                     creatures called "Pokémon".
 
+            </div>
+        </div>
+        <div class="box col-lg-4">
+            <div class="gallery">
+                <img src="https://images.indianexpress.com/2021/09/cats_759.jpeg" alt="" />
+            </div>
+            <div class="flip">
+                <h2>Cats</h2>
+                <p>
+                    The cat (Felis catus) is a domestic species of a small carnivorous mammal. It is the only
+                    domesticated
+                    species in the family Felidae and is often referred to as the domestic cat to distinguish it from
+                    the
+                    wild members of the family.A cat can either be a house cat, a farm cat or a feral cat.
+                </p>
+            </div>
+        </div>
+        <div class="box col-lg-4">
+            <div class="gallery">
+                <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/04/15/970025-taj-mahal.jpg"
+                    alt="" />
+            </div>
+            <div class="flip">
+                <h2>Monuments</h2>
+                <p>
+                    A monument is a type of structure that was explicitly created to commemorate
+                    a person or event, or which has become relevant to a social
+                    group as a part of their remembrance of historic times or cultural heritage,
+                    due to its artistic, historical, political, technical or architectural importance.
+                </p>
+            </div>
+        </div>
+        <div class="box col-lg-4">
+            <div class="gallery">
+                <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5fe74d45a9c2a2d204db2948%2F0x0.jpg"
+                    alt="" />
+            </div>
+            <div class="flip">
+                <h2>Earth</h2>
+                <p>
+                    Earth is the third planet from the Sun and the only astronomical object known to
+                    harbor life. While large amounts of water can be found throughout the Solar System,
+                    only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean.
+                    The remaining 29% of Earth's surface is land.
+                </p>
+            </div>
+        </div>
+        <div class="box col-lg-4">
+            <div class="gallery">
+                <img src="https://www.supercars.net/blog/wp-content/uploads/2020/12/2021-Ferrari-488-GT-Modificata-001-2160-scaled.jpg"
+                    alt="" />
+            </div>
+            <div class="flip">
+                <h2>SuperModel Cars</h2>
+                <p>
+                    A SuperModel Car ,also called exotic car ,is a loosely defined description of street-legal,
+                    high-performance luxury sports cars. Since the 2000s or 2010s, the term hypercar has
+                    come into use for the highest performing supercars.
+                </p>
+            </div>
+        </div>
+        <div class="box col-lg-4">
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNpbmVtYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                    alt="" />
+            </div>
+            <div class="flip">
+                <h2>Movies</h2>
+                <p>
+                    A movie, also called a film, motion picture or moving picture, is a work of visual art used
+                    to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty, or
+                    atmosphere through the use of moving images. These images are generally accompanied by sound,
+                    and more rarely, other sensory stimulations.
+                </p>
+            </div>
+        </div>
+        <div class="box col-lg-4">
+            <div class="gallery">
+                <img src="https://wallpaperaccess.com/full/407322.jpg" alt="" />
+            </div>
+            <div class="flip">
+                <h2>Anime</h2>
+                <p>
+                    Anime is hand-drawn and computer animation originating from Japan.
+                    In Japan and in Japanese, anime (a term derived from the English word animation) describes all
+                    animated works, regardless of style or origin. However, outside of Japan and in English, anime
+                    is colloquial for Japanese animation and refers specifically to animation produced in Japan.
+                </p>
+            </div>
+        </div>
+    </div>
 
-                    <div class="hd1">
-                        <h1>Gallery</h1>
+    <footer>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <span>Copyright &copy; 2022 , All Right Reserved</span>
                     </div>
-                    <div class="flex-container row">
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1188,w_2121,x_0,y_142/f_auto,q_auto,w_1100/v1554733134/shape/mentalfloss/78996-istock-682216682.jpg" alt="" />
-                            </div>
-                            <div class="flip">
-                                <h2>Birds</h2>
-                                <p>
-                                    Birds are a group of warm blooded vertebratres constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled egg,a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. There are
-                                    more than ten thousand living species of birds.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://media.nature.com/lw800/magazine-assets/d41586-020-01430-5/d41586-020-01430-5_17977552.jpg" alt="" />
-                            </div>
-                            <div class="flip">
-                                <a href="../gallery/dogs.html">
-                                    <h2>Dogs</h2>
-                                </a>
-                                <p>
-                                    The dog or domestic dog (Canis familiaris) is a domesticated descendant of the grey wolf, characterized by an upturning tail. The dog was the first species to be domesticated, by hunter gatherers over 15,000 years ago, before the development of agriculture.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://miro.medium.com/max/2800/0*ZLujw1b18CnMFxFa.jpg" alt="" />
-                            </div>
-                            <div class="flip">
-                                <a href="../gallery/pokemon.html">
-                                    <h2>Pokemons</h2>
-                                </a>
-                                <p>
-                                    Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996, and is centered on fictional
-                                    creatures called "Pokémon".
-
-                            </div>
-                        </div>
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://images.indianexpress.com/2021/09/cats_759.jpeg" alt="" />
-                            </div>
-                            <div class="flip">
-                                <h2>Cats</h2>
-                                <p>
-                                    The cat (Felis catus) is a domestic species of a small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family.A cat can either be
-                                    a house cat, a farm cat or a feral cat.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/04/15/970025-taj-mahal.jpg" alt="" />
-                            </div>
-                            <div class="flip">
-                                <h2>Monuments</h2>
-                                <p>
-                                    A monument is a type of structure that was explicitly created to commemorate a person or event, or which has become relevant to a social group as a part of their remembrance of historic times or cultural heritage, due to its artistic, historical, political,
-                                    technical or architectural importance.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5fe74d45a9c2a2d204db2948%2F0x0.jpg" alt="" />
-                            </div>
-                            <div class="flip">
-                                <h2>Earth</h2>
-                                <p>
-                                    Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large amounts of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the
-                                    ocean. The remaining 29% of Earth's surface is land.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://www.supercars.net/blog/wp-content/uploads/2020/12/2021-Ferrari-488-GT-Modificata-001-2160-scaled.jpg" alt="" />
-                            </div>
-                            <div class="flip">
-                                <h2>SuperModel Cars</h2>
-                                <p>
-                                    A SuperModel Car ,also called exotic car ,is a loosely defined description of street-legal, high-performance luxury sports cars. Since the 2000s or 2010s, the term hypercar has come into use for the highest performing supercars.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNpbmVtYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
-                            </div>
-                            <div class="flip">
-                                <h2>Movies</h2>
-                                <p>
-                                    A movie, also called a film, motion picture or moving picture, is a work of visual art used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty, or atmosphere through the use of moving images. These images are generally
-                                    accompanied by sound, and more rarely, other sensory stimulations.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="box col-lg-4">
-                            <div class="gallery">
-                                <img src="https://wallpaperaccess.com/full/407322.jpg" alt="" />
-                            </div>
-                            <div class="flip">
-                                <h2>Anime</h2>
-                                <p>
-                                    Anime is hand-drawn and computer animation originating from Japan. In Japan and in Japanese, anime (a term derived from the English word animation) describes all animated works, regardless of style or origin. However, outside of Japan and in English,
-                                    anime is colloquial for Japanese animation and refers specifically to animation produced in Japan.
-                                </p>
-                            </div>
+                    <div class="col col-md-6 ">
+                        <div class="copyright-menu pe-4">
+                            <ul>
+                                <li>
+                                    <a href="../../index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="../about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="../../contributors.html">Contributors</a>
+                                </li>
+                                <li>
+                                    <a href="./landing.html">Back to Top</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <footer>
-                        <div class="copyright">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col col-md-6">
-                                        <span>Copyright &copy; 2022 , All Right Reserved</span>
-                                    </div>
-                                    <div class="col col-md-6 ">
-                                        <div class="copyright-menu">
-                                            <ul>
-                                                <li>
-                                                    <a href="../../index.html">Home</a>
-                                                </li>
-                                                <li>
-                                                    <a href="../about.html">About Us</a>
-                                                </li>
-                                                <li>
-                                                    <a href="../../contributors.html">Contributors</a>
-                                                </li>
-                                                <li>
-                                                    <a href="./landing.html">Back to Top</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-                    <script src="../../js/app.js"></script>
+    <script src="../../js/app.js"></script>
 
 </body>
 
