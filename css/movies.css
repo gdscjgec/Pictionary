@@ -1,0 +1,93 @@
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	background-image: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+	color: var(--color);
+	margin: 0;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.search {
+	border-radius: 50px;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.movie {
+	border-radius: 3px;
+	box-shadow: 0 5px 30px rgba(211, 77, 24, 0.24), 0 -5px 30px rgba(36, 75, 182, 0.445);
+	overflow: hidden;
+	position: relative;
+	margin: 1rem;
+	width: 300px;
+}
+
+.movie img {
+	width: 100%;
+}
+
+.movie-info {
+	color: var(--color);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 1rem 1rem;
+	letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+	margin: 0;
+	font-size: 1.5rem;
+	color: var(--color);
+}
+
+.movie-info span {
+	background-color: #E8E8E8;
+	border-radius: 3px;
+	font-weight: bold;
+	padding: 0.25rem 0.5rem;
+}
+
+.overview {
+	background-color: var(--primary-color);
+	padding: 2rem;
+	position: absolute;
+	max-height: 100%;
+	overflow: auto;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transform: translateY(101%);
+	transition: transform 0.3s ease-in;
+}
+
+.overview h3 {
+	margin-top: 0;
+}
+
+.movie:hover .overview {
+	transform: translateY(0);
+}
+
+
+/*-- DARK THEME CSS--*/
+:root {
+	--primary-color: #f5f7fa;
+	--secondary-color: #c3cfe2;
+	--color: #000;
+}
+
+.dark-theme {
+	--primary-color: #1b1919;
+	--secondary-color: #000;
+	--color: #fff;
+}
