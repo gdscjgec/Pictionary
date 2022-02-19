@@ -1,0 +1,18 @@
+{
+  "name": "gh-contributor-server",
+  "version": "1.0.0",
+  "description": "Serves contributor details for any requested repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node backend/index.js"
+  },
+  "author": "code-soham",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "fs": "0.0.1-security",
+    "mongodb": "^4.4.0"
+  }
+}
