@@ -5,9 +5,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 const ACCESS_TOKEN = process.env.GH_ACCESS_TOKEN;
 
-const { allRepos } = require('./utils/allRepos');
-const repos = allRepos;
-
 const fetchRepoData = async (repoName = 'gdscjgec/Pictionary') => {
   let pageCount = 1;
   let pageAvailabe = true;
