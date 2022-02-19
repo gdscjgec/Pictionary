@@ -10,13 +10,21 @@ searchButton.addEventListener('keyup',(e)=>{
     displayCards(filterContrib);
 })
 const fetchData = async() => {
+  var pg = 1;//page no.
+  while(true){
     try {
-        const response = await fetch('https://api.github.com/repos/gdscjgec/Pictionary/contributors');
-        contributors = await response.json();
+        const response = await fetch(`https://api.github.com/repos/gdscjgec/Pictionary/contributors?page=${pg}`);
+        var resp = await response.json();
+        console.log(resp)
+        if(resp===[]) break;
+        contributors.push(...resp);
         displayCards(contributors);
+        pg++;
     } catch (err) {
         console.error(err);
     }
+  }
+  
 };
 
 const displayCards = (contributorsData) => {
