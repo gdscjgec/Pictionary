@@ -27,7 +27,7 @@ const fetchData = async () => {
   //     break;
   //   }
   // }
-  await fetch('../data.json')
+  await fetch('../Pictionary/data.json')
     .then((response) => {
       return response.json();
     })
