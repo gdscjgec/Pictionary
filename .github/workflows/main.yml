@@ -3,7 +3,7 @@ name: Cron Job
 on:
   schedule:
     # At every 10 minutes
-    - cron: "*/10 * * * *"
+    - cron: "0 */3 * * *"
 
 jobs:
   fetch:
