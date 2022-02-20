@@ -11,22 +11,6 @@ searchButton.addEventListener('keyup', (e) => {
   displayCards(filterContrib);
 });
 const fetchData = async () => {
-  // var pg = 1; //page number
-  // while (true) {
-  //   try {
-  //     const response = await fetch(
-  //       `https://api.github.com/repos/gdscjgec/Pictionary/contributors?page=${pg}`
-  //     );
-  //     var resp = await response.json();
-  //     if (resp === []) break;
-  //     contributors.push(...resp);
-  //     displayCards(contributors);
-  //     pg++;
-  //   } catch (err) {
-  //     console.error(err);
-  //     break;
-  //   }
-  // }
   await fetch('../Pictionary/data.json')
     .then((response) => {
       return response.json();
