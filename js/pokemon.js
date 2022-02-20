@@ -84,7 +84,7 @@ const displayPokemon = async () => {
         container.appendChild(noResult);
     } else {
         //render a card for each pokemon in list
-        pokemons.forEach(async (pokemon) => {
+        pokemons.forEach(async (pokemon, index) => {
             const name = document.createElement("h3");
             name.classList.add("name");
             name.innerText = pokemon.name;
@@ -107,15 +107,42 @@ const displayPokemon = async () => {
             //and display the detailed card
             document.getElementById(`pokemon-${pokemon.url.split("/")[6]}`)
                 .addEventListener('click', (e) => {
-                    displayPokemonModal(pokemonData);
+                    displayPokemonModal(pokemons, pokemonData, index);
                 })
         })
     }
 }
 
-const displayPokemonModal = (data) => {
+const displayPokemonModal = (pokemons, data, index) => {
     clearModals();    
     //header
+
+    const left = document.createElement("button");
+    left.innerHTML="<"
+    const right = document.createElement("button");
+    right.innerHTML=">"
+    
+    if (index===pokemons.length-1) {
+        right.disabled = true;
+    }
+    if (index===0) {
+        left.disabled = true;
+    }
+    
+    left.addEventListener('click', async () => {
+        const leftData = await fetchSinglePokemon(pokemons[index-1].url.split("/")[6]);
+        // console.log(leftData.name)
+        displayPokemonModal(pokemons, leftData, index-1);
+        return;
+    })
+
+    right.addEventListener('click', async () => {
+        const rightData = await fetchSinglePokemon(pokemons[index+1].url.split("/")[6])
+        displayPokemonModal(pokemons, rightData, index+1);
+        return;
+    })
+
+
     const name = document.createElement("h3");
     name.innerText = data.name.toUpperCase() + "-" + data.order; 
     const weight = document.createElement("h5");
@@ -141,9 +168,12 @@ const displayPokemonModal = (data) => {
 
     const singlePokemonModal = document.createElement('div');
     singlePokemonModal.classList.add("singlePokemonModal");
+    singlePokemonModal.appendChild(left);
     singlePokemonModal.appendChild(singlePokemonHeader);
     singlePokemonModal.appendChild(image);
+    singlePokemonModal.appendChild(right);
     singlePokemonModal.appendChild(close);
+
     //insert this modal before everything in body
     //set its style to sticky and complete dimensions
     document.body.insertBefore(singlePokemonModal, document.body.firstChild);
