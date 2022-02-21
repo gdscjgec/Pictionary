@@ -33,7 +33,22 @@
     color: var(--cprimary-color);
     zoom : 0.7;
 }
-
+/* to be implemented after fixing SVG */
+/* #tooltip{
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+    bottom:0;
+}
+.card:hover #tooltip{
+    visibility: visible;
+} */
 .card .image img {
     border-radius: 50%;
     height: 150px;
