@@ -11,7 +11,6 @@
     --cmail-color: #8086ed;
     --chover-color: white;
 }
-
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +31,7 @@
     width: 300px;
     margin: 10px;
     color: var(--cprimary-color);
+    zoom : 0.7;
 }
 
 .card .image img {
@@ -42,10 +42,13 @@
 .card .data {
     display: flex;
     justify-content: space-evenly;
+    /* background-color: #8086ed; */
+    margin-top: 30px;
 }
 
 h1 {
-    margin: 0;
+    margin-top: -10px;
+    font-size: 2vw;
 }
 
 .email_id a {
@@ -69,18 +72,21 @@ h1 {
 .outline {
     position: absolute;
     overflow: hidden;
-    height: 160px;
+    height: 60px;
     margin-top: 17px;
     margin-bottom: 10px;
     margin-left: 25%;
     margin-right: 25%;
     width: 160px;
-    left: -55px;
-    top: -18px;
-    zoom: 3.6;
-    z-index: -1;
+    left: -38.1px;
+    top: -9.4px;
+    zoom: 5.2;
+    z-index: 1000;
+    /* background-color: #1e104a; */
 }
-
+a{
+    z-index: 10000;
+}
 /* media queries */
 @media screen and (max-width: 768px) {
   .cards{
