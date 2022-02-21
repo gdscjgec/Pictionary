@@ -25,14 +25,49 @@
    </head>
    <body>
       <header>
-         <form id="form">
-            <input
-               type="text"
-               id="search"
-               placeholder="Search Movies"
-               class="search"
+         
+         <div id="header">
+
+            MOVIES
+
+            <div>
+
+               <input
+                  type="text"
+                  id="search"
+                  placeholder="Search Movies"
+                  class="search"
                />
-         </form>
+            </div>
+
+            <div>
+
+               <select 
+                  id="sort"
+                  placeholder="Sort By"
+                  class="sort"
+                  onchange="handleSortChange()"
+               >  
+                  <option value="popularity">Popularity</option>
+                  <option value="release_date">Release Date</option>
+                  <option value="vote_average">Vote Average</option>
+                  <option value="vote_count">Vote Count</option>
+               </select>
+
+               <select 
+                  id="order"
+                  placeholder="Order As"
+                  class="order"
+                  onchange="handleOrderChange()"
+               >
+                  <option value="ascending" class="btn btn-secondary small ascending">↑</option>
+                  <option value="descending" class="btn btn-secondary small descending">↓</option>
+               </select>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Search</button>
+        
+         </div>
       </header>
       <main id="main"></main>
       <script src="../../js/movies.js" ></script>

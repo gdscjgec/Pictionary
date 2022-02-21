@@ -7,14 +7,50 @@ const SEARCHAPI =
 const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
+let sortVal = document.getElementById("sort").value;
+let orderVal = document.getElementById("order").value;
 
 getMovies(APIURL);
 
+const handleSortChange = () =>{
+    sortVal =  document.getElementById("sort").value;
+    getMovies(APIURL);
+}
+const handleOrderChange = () => {
+    orderVal = document.getElementById("order").value;
+    console.log(orderVal)
+    getMovies(APIURL);
+}
+
+const handleSort = (data) => {
+    if (orderVal==="descending"){
+        if (sortVal==="popularity") {
+            return data.sort((a, b) => b.popularity - a.popularity);
+        } else if (sortVal==="vote_average") {
+            return data.sort((a, b) => b.vote_average - a.vote_average);
+        } else if (sortVal=== "vote_count"){
+            return data.sort((a, b) => b.vote_count - a.vote_count);
+        } else if (sortVal === "release_date"){
+            return data.sort( (a,b ) => {b.release_date - a.release_date });
+        }
+    }else{
+        if (sortVal==="popularity") {
+            return data.sort((a, b) => a.popularity - b.popularity);
+        } else if (sortVal==="vote_average") {
+            return data.sort((a, b) => a.vote_average - b.vote_average);
+        } else if (sortVal=== "vote_count"){
+            return data.sort((a, b) => a.vote_count - b.vote_count);
+        } else if (sortVal === "release_date"){
+            return data.sort( (a,b ) => {a.release_date - b.release_date });
+        }
+    }
+
+}
+
 async function getMovies(url) {
     const resp = await fetch(url);
-    const respData = await resp.json();
-
-    console.log(respData);
+    const respData = await resp.json();    
+    handleSort(respData.results);
 
     showMovies(respData.results);
 }

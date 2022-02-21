@@ -11,15 +11,26 @@ header {
 	padding: 1rem;
 }
 
-.search {
+input, select {
 	border-radius: 50px;
 	font-size: 1rem;
 	padding: 0.5rem 1rem;
 }
-
-main {
+#header{
+	width: 100vw;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: baseline;
+
+}
+main {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 1rem;
+	padding: 1rem;
+	grid-template-rows: auto;
+	justify-content: center;
 }
 
 .movie {
