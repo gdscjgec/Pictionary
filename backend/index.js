@@ -46,7 +46,23 @@ const fetchRepoData = async (repoName = 'gdscjgec/Pictionary') => {
       process.exit(1);
     }
   }
-  // console.log(allData)
+  //populate followers data
+  for(let i=0;i<allData.length;i++){
+    console.log(i);
+    const userName = allData[i].login;
+    const url = `https://api.github.com/users/${userName}`;
+    const resp = await axios.get(url, {
+      headers: {
+        authorization: `token ${ACCESS_TOKEN}`,
+        'User-Agent': 'request',
+        Accept: 'application/vnd.github.v3+json',
+      },
+    });
+    // console.log(resp.data);
+    const val= resp.data["followers"];
+    // console.log(val);
+    allData[i]["followers"]=val;
+  }
   writeJson({
     lastUpdated: new Date(),
     data: allData,
