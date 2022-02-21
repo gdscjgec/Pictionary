@@ -33,7 +33,22 @@
     color: var(--cprimary-color);
     zoom : 0.7;
 }
-
+/* to be implemented after fixing SVG */
+/* #tooltip{
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+    bottom:0;
+}
+.card:hover #tooltip{
+    visibility: visible;
+} */
 .card .image img {
     border-radius: 50%;
     height: 150px;
@@ -49,6 +64,11 @@
 h1 {
     margin-top: -10px;
     font-size: 2vw;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
 }
 
 .email_id a {
@@ -79,13 +99,14 @@ h1 {
     margin-right: 25%;
     width: 160px;
     left: -38.1px;
-    top: -9.4px;
+    top: -11.7px;
     zoom: 5.2;
     z-index: 1000;
     /* background-color: #1e104a; */
 }
 a{
     z-index: 10000;
+    zoom:2;
 }
 /* media queries */
 @media screen and (max-width: 768px) {
