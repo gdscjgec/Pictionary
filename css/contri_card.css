@@ -106,7 +106,6 @@ h1 {
 }
 a{
     z-index: 10000;
-    zoom:2;
 }
 /* media queries */
 @media screen and (max-width: 768px) {
