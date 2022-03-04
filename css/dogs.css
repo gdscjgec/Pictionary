@@ -25,6 +25,8 @@ body {
     margin-bottom: 5rem;
     border: 2px solid rgba(36, 75, 182, 0.445);
     box-shadow: 0 5px 30px rgba(211, 77, 24, 0.24), 0 -5px 30px rgba(36, 75, 182, 0.445);
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 .image {

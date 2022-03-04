@@ -24,6 +24,8 @@ body {
     max-width: 15rem;
     margin-bottom: 5rem;
     border: 2px solid blueviolet;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 .image {
@@ -36,6 +38,10 @@ body {
     text-transform: capitalize;
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.pokemon-input{
+  margin: 1rem;
 }
 
 
