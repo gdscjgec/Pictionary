@@ -13,6 +13,6 @@
     "axios": "^0.26.0",
     "dotenv": "^16.0.0",
     "fs": "0.0.1-security",
-    "mongodb": "^4.4.0"
+    "mongodb": "^4.17.0"
   }
 }
