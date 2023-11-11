@@ -10,7 +10,7 @@
   "author": "code-soham",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.26.0",
+    "axios": "^1.6.0",
     "dotenv": "^16.0.0",
     "fs": "0.0.1-security",
     "mongodb": "^4.4.0"
